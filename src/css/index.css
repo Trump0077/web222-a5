@@ -1,0 +1,75 @@
+h1 {
+  font-style: oblique;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva,
+    Verdana, sans-serif;
+  color: rgb(166, 57, 10);
+}
+
+header p {
+  background-color: rgb(23, 3, 16);
+  color: aquamarine;
+}
+
+#category-c1-btn {
+  margin: 10px;
+  background-color: red;
+}
+
+#category-c2-btn {
+  margin: 10px;
+  background-color: black;
+}
+
+#category-c3-btn {
+  margin: 10px;
+  background-color: rgb(106, 206, 232);
+}
+
+#category-c4-btn {
+  margin: 10px;
+  background-color: rgb(118, 5, 95);
+}
+
+#selected-category {
+  color: blue;
+  background-color: orange;
+}
+
+.card-container {
+  display: inline-flex;
+  flex-wrap: wrap;
+  padding: 40px;
+}
+
+.card {
+  background-color: bisque;
+  margin: 20px;
+  width: 160px;
+}
+
+.card-image {
+  width: 160px;
+  height: 120px;
+}
+
+.name {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-weight: 100;
+  color: rgb(3, 50, 17);
+  display: flex;
+  justify-content: space-around;
+}
+
+.description {
+  width: 138px;
+  color: brown;
+  height: 40px;
+  padding-left: 20px;
+}
+
+.price {
+  color: yellow;
+  background-color: blueviolet;
+  display: flex;
+  justify-content: space-around;
+}
